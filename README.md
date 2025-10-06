@@ -5,6 +5,7 @@
 
 
 ---
+<img width="1536" height="1024" alt="ChatGPT Image Oct 6, 2025, 11_52_30 PM" src="https://github.com/user-attachments/assets/070c8788-dffc-436e-98dc-42ae5dadbb3b" />
 
 
 ## **1. Project Overview**
@@ -97,9 +98,13 @@ By leveraging **Microsoft Excel** and **Tableau**, this project explores the int
 
 EDA in Tableau and E0xcel revealed patterns and relationships that shaped the final recommendations.
 
+
+
+<img width="999" height="1099" alt="Dashboard 2 (2)" src="https://github.com/user-attachments/assets/fe9b00b8-3b7b-44e1-8adb-3a9e466fe947" />
+
+Link to the dashboard [Click Here](https://www.k5learning.com/worksheets/math/grade-6-integer-multiplication-whole-tens-a.pdf)
+
 **Key EDA Activities:**
-
-
 
 * Profit distribution by category and subcategory \
 
@@ -433,5 +438,6 @@ These regions have remained consistently underperforming over the analysis perio
  **Project Type:** Retail Analytics & Profitability Optimization \
  **Tools Used:** Excel | Tableau | Power Query
 
+![WhatsApp Image 2025-10-06 at 11 55 44 PM](https://github.com/user-attachments/assets/f471809e-bde2-4080-be34-a34b75e2c886)
 
 ---
