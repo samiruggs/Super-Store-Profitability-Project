@@ -1,9 +1,3 @@
-# Super-Store-Profitability-Project
-
------>
-
-
-
 # **Superstore Profitability Optimization Project**
 
 
@@ -76,24 +70,20 @@ By leveraging **Microsoft Excel** and **Tableau**, this project explores the int
 
 
 
-1. **Validation \
-**
+1. **Validation**
     * Removed null and duplicate entries \
 
     * Verified consistency of city and state names \
 
     * Checked profit and sales data for outliers \
 
-2. **Transformation \
-**
+2. **Transformation**
     * Extracted *Year* and *Month* from Order Date \
 
-    * Created calculated fields for *Profit Ratio (%)* and *Discount Rate \
-*
+    * Created calculated fields for *Profit Ratio (%)* and *Discount Rate*
     * Standardized categorical fields and numeric formats \
 
-3. **Standardization \
-**
+3. **Standardization**
     * Normalized text case across all fields \
 
     * Corrected duplicate or inconsistent city entries (e.g., Philadelphia duplicates removed) \
@@ -105,7 +95,7 @@ By leveraging **Microsoft Excel** and **Tableau**, this project explores the int
 
 ## **5. Exploratory Data Analysis (EDA)**
 
-EDA in Tableau and Excel revealed patterns and relationships that shaped the final recommendations.
+EDA in Tableau and E0xcel revealed patterns and relationships that shaped the final recommendations.
 
 **Key EDA Activities:**
 
@@ -202,14 +192,10 @@ The **all-time best sales months (in decreasing order)** are:
 
 
 
-1. **November \
-**
-2. **December \
-**
-3. **September \
-**
-4. **March \
-**
+1. **November**
+2. **December**
+3. **September**
+4. **March**
 
 However, the **highest sales months do not necessarily yield the highest profit ratios.**
 
@@ -266,16 +252,11 @@ The **least profitable states** include:
 
 4. **Illinois:** –$12,607.89 \
 
-5. **North Carolina \
-**
-6. **Colorado \
-**
-7. **Tennessee \
-**
-8. **Arizona \
-**
-9. **Florida \
-**
+5. **North Carolina**\
+6. **Colorado**\
+7. **Tennessee**\
+8. **Arizona**\
+9. **Florida**
 10. **Oregon:** –$1,190.47 \
 
 
@@ -377,7 +358,7 @@ These regions have remained consistently underperforming over the analysis perio
 
 2. **Audit high-loss regions** like Philadelphia, Texas, and Illinois for operational inefficiencies. \
 
-3. **Implement an automated loss-alert system** to flag transactions exceeding a 30% discount threshold. \
+3. **Implement an automated loss-alert system** to flag transactions exceeding a 10% discount threshold. \
 
 
 
@@ -385,39 +366,25 @@ These regions have remained consistently underperforming over the analysis perio
 
 
 
-1. **Restructure the Furniture category: \
-**
+1. **Restructure the Furniture category:**\
     * Discontinue persistently unprofitable products. \
 
     * Re-negotiate supplier terms and logistics. \
 
     * Introduce margin-based pricing policies. \
 
-2. **Optimize Pricing Strategy: \
-**
+2. **Optimize Pricing Strategy:**\
     * Develop a **tiered discount matrix** based on product profitability. \
 
     * Tie discount approval to margin thresholds. \
 
     * Focus marketing on high-margin categories like Technology. \
 
-3. **Regional Profit Improvement: \
-**
+3. **Regional Profit Improvement:**\
     * Apply successful strategies from California and New York to underperforming states. \
 
     * Consider **strategic withdrawal** from persistently unprofitable areas. \
-
-
-
-### **Long-Term (12+ Months)**
-
-
-
-1. **Develop Predictive Pricing Models** to test discount elasticity. \
-
-2. **Automate Profit Dashboards** using Tableau for real-time decision-making. \
-
-3. **Integrate Customer Lifetime Value (CLV)** analytics to align discounting with profitability. \
+    * Find cost effective methods in delivery of order which could be a cause for unprofitabilty in certain region.
 
 
 
@@ -457,27 +424,12 @@ These regions have remained consistently underperforming over the analysis perio
 
 
 
----
-
-
-## **11. Next Steps**
-
-
-
-* Build a **live Tableau dashboard** to monitor discount-to-profit correlation. \
-
-* Present findings to management for **policy-level decision-making**. \
-
-* Conduct **pilot pricing adjustments** in Texas and Pennsylvania. \
-
-* Evaluate the **Furniture category restructure** quarterly for measurable ROI. \
-
 
 
 ---
 
-**Prepared by:** [Your Name] \
- **Date:** [Current Date] \
+**Prepared by:** Samuel Chukwudozie \
+ **Date:** 6th November, 2025 \
  **Project Type:** Retail Analytics & Profitability Optimization \
  **Tools Used:** Excel | Tableau | Power Query
 
