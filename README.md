@@ -20,13 +20,13 @@ By leveraging **Microsoft Excel** and **Tableau**, this project explores the int
 
 
 
-* Which categories and cities are most and least profitable? \
+* Which categories and cities are most and least profitable? 
 
-* What role do discounts play in driving or eroding profits? \
+* What role do discounts play in driving or eroding profits? 
 
-* How do seasonal trends influence profitability? \
+* How do seasonal trends influence profitability? 
 
-* Which regions and customer segments offer the greatest potential for improvement? \
+* Which regions and customer segments offer the greatest potential for improvement? 
 
 
 
@@ -39,11 +39,11 @@ By leveraging **Microsoft Excel** and **Tableau**, this project explores the int
 
 
 
-* **Records:** 2,500+ transactions \
+* **Records:** 2,500+ transactions 
 
-* **Fields:** Category, Sub-Category, Sales, Profit, Quantity, Discount, Segment, Region, State, City, Order Date \
+* **Fields:** Category, Sub-Category, Sales, Profit, Quantity, Discount, Segment, Region, State, City, Order Date 
 
-* **Source:** Tableau public dataset \
+* **Source:** Tableau public dataset 
 
 
 
@@ -54,11 +54,11 @@ By leveraging **Microsoft Excel** and **Tableau**, this project explores the int
 
 
 
-* **Microsoft Excel:** Data validation, cleaning, and computation using Power Query and Pivot Tables \
+* **Microsoft Excel:** Data validation, cleaning, and computation using Power Query and Pivot Tables 
 
-* **Tableau:** Data visualization, dashboard creation, and trend analysis \
+* **Tableau:** Data visualization, dashboard creation, and trend analysis 
 
-* **Power Query:** Data transformation and normalization \
+* **Power Query:** Data transformation and normalization 
 
 
 
@@ -72,22 +72,20 @@ By leveraging **Microsoft Excel** and **Tableau**, this project explores the int
 
 
 1. **Validation**
-    * Removed null and duplicate entries \
+    * Removed null and duplicate entries 
 
-    * Verified consistency of city and state names \
+    * Verified consistency of city and state names 
 
-    * Checked profit and sales data for outliers \
+    * Checked profit and sales data for outliers 
 
 2. **Transformation**
-    * Extracted *Year* and *Month* from Order Date \
+    * Extracted *Year* and *Month* from Order Date 
 
     * Created calculated fields for *Profit Ratio (%)* and *Discount Rate*
-    * Standardized categorical fields and numeric formats \
+    * Standardized categorical fields and numeric formats 
+    * Normalized text case across all fields 
 
-3. **Standardization**
-    * Normalized text case across all fields \
-
-    * Corrected duplicate or inconsistent city entries (e.g., Philadelphia duplicates removed) \
+    * Corrected duplicate or inconsistent city entries (e.g., Philadelphia duplicates removed) 
 
 
 
@@ -107,32 +105,31 @@ Link to the dashboard [Click Here](https://public.tableau.com/views/ExecutiveSum
 
 **Key EDA Activities:**
 
-* Profit distribution by category and subcategory \
+* Profit distribution by subcategory 
 
-* Segment-level performance analysis \
+* Profit distribution by Cities
 
-* Discount vs. profit correlation \
-
-* Geographic profit heatmaps (state and city) \
+* Geographic profit heatmaps (state and city) 
 
 * Time-based sales and profit trends
+* Filters based on Segment, Category, Year, Region
 
 
 ### **Key Performance Indicators**
 
 
 
-* **Total Sales:** $2,297,200.86 \
+* **Total Sales:** $2,297,200.86 
 
-* **Total Profit:** $286,397.02 \
+* **Total Profit:** $286,397.02 
 
-* **Overall Profit Ratio:** 12% \
+* **Overall Profit Ratio:** 12% 
 
-* **Average Discount:** 15.62% \
+* **Average Discount:** 15.62% 
 
-* **Quantity Sold:** 37,873 \
+* **Quantity Sold:** 37,873 
 
-* **Profit per Order:** $28.66 \
+* **Profit per Order:** $28.66 
 
 
 
@@ -144,10 +141,10 @@ Link to the dashboard [Click Here](https://public.tableau.com/views/ExecutiveSum
 
 ### **A. Profitability by City**
 
-The top 10 **most profitable cities (in decreasing order)** are: \
+The top 10 **most profitable cities (in decreasing order)** are: 
  **New York City**, **Los Angeles**, **Seattle**, **San Francisco**, **Detroit**, **Lafayette**, **Jackson**, **Minneapolis**, **San Diego**, and **Portland**.
 
-The **most unprofitable cities** are: \
+The **most unprofitable cities** are: 
  **Philadelphia (worst)**, **Houston**, **San Antonio**, **Lancaster**, **Chicago**, **Burlington**, **Dallas**, **Phoenix**, **Aurora**, and **Jacksonville**.
 
 These results reveal a concentration of profitability in coastal and western regions, while losses persist in parts of Texas, Illinois, and Pennsylvania.
@@ -162,17 +159,17 @@ The **most profitable product categories** are:
 
 
 
-1. Copiers \
+1. Copiers 
 
-2. Phones \
+2. Phones 
 
-3. Accessories \
+3. Accessories 
 
-4. Paper \
+4. Paper 
 
-5. Binders \
+5. Binders 
 
-6. Chairs \
+6. Chairs 
 
 
 Machines also perform fairly well (**$33,294 profit**) but incurred notable losses (**–$29,909**) that significantly reduced their net contribution.
@@ -185,7 +182,7 @@ The **most unprofitable subcategory** is **Tables**, where total losses exceed g
 
 ### **C. Profitability by Segment**
 
-All customer segments—**Consumer**, **Corporate**, and **Home Office**—show similar profit ratios, averaging between 4.7% and 6.9%. \
+All customer segments—**Consumer**, **Corporate**, and **Home Office**—show similar profit ratios, averaging between 4.7% and 6.9%. 
  This indicates that **segment performance is stable**, and profitability challenges stem primarily from **product and pricing**, not customer type.
 
 
@@ -207,11 +204,11 @@ However, the **highest sales months do not necessarily yield the highest profit 
 
 
 
-* **December:** 0.13 \
+* **December:** 0.13 
 
-* **August, July, May, March:** 0.14 \
+* **August, July, May, March:** 0.14 
 
-* **October:** 0.16 (highest monthly profit ratio) \
+* **October:** 0.16 (highest monthly profit ratio) 
 
 
 This suggests that high sales months are often **discount-driven**, not **profit-driven**.
@@ -221,21 +218,21 @@ This suggests that high sales months are often **discount-driven**, not **profit
 
 
 
-* Discounts remain relatively stable across months: \
+* Discounts remain relatively stable across months: 
 
-    * **September:** 14.9% \
+    * **September:** 14.9% 
 
-    * **November:** 15.83% \
+    * **November:** 15.83% 
 
-    * **December:** 15.04% \
+    * **December:** 15.04% 
 
-    * **October:** 16.26% \
+    * **October:** 16.26% 
 
-    * **June:** 16.28% \
+    * **June:** 16.28% 
 
-    * **May:** 16.54% \
+    * **May:** 16.54% 
 
-    * **April:** 16.31% \
+    * **April:** 16.31% 
 
 
 This pattern shows that **no special discounts were applied during high-sales months**, yet the overall **average discount (15.62%) remains quite high**, confirming that the company’s sales are **heavily discount-driven**.
@@ -250,20 +247,20 @@ The **least profitable states** include:
 
 
 
-1. **Texas:** –$25,729.36 \
+1. **Texas:** –$25,729.36 
 
-2. **Ohio:** –$16,971.38 \
+2. **Ohio:** –$16,971.38 
 
-3. **Pennsylvania:** –$15,559.96 \
+3. **Pennsylvania:** –$15,559.96 
 
-4. **Illinois:** –$12,607.89 \
+4. **Illinois:** –$12,607.89 
 
-5. **North Carolina**\
-6. **Colorado**\
-7. **Tennessee**\
-8. **Arizona**\
+5. **North Carolina**
+6. **Colorado**
+7. **Tennessee**
+8. **Arizona**
 9. **Florida**
-10. **Oregon:** –$1,190.47 \
+10. **Oregon:** –$1,190.47 
 
 
 These regions have remained consistently underperforming over the analysis period, with recurring losses linked to **Furniture** sales and aggressive discounting.
@@ -323,11 +320,11 @@ These regions have remained consistently underperforming over the analysis perio
 
 
 
-* Furniture category’s profit ratio (0.02) is far below that of Office Supplies and Technology (both 0.17). \
+* Furniture category’s profit ratio (0.02) is far below that of Office Supplies and Technology (both 0.17). 
 
-* All categories generate similar sales volumes, but Furniture’s high discounts result in severe profit erosion. \
+* All categories generate similar sales volumes, but Furniture’s high discounts result in severe profit erosion. 
 
-* The Furniture category’s pricing model is unsustainable under the current discount structure. \
+* The Furniture category’s pricing model is unsustainable under the current discount structure. 
 
 
 
@@ -338,15 +335,15 @@ These regions have remained consistently underperforming over the analysis perio
 
 
 
-* Profitability is concentrated in **specific high-margin products** (Copiers, Phones, Accessories) and **coastal urban markets** (New York, Los Angeles, Seattle). \
+* Profitability is concentrated in **specific high-margin products** (Copiers, Phones, Accessories) and **coastal urban markets** (New York, Los Angeles, Seattle). 
 
-* Persistent losses occur in **Tables**, **Furniture**, and **cities like Philadelphia and Houston**. \
+* Persistent losses occur in **Tables**, **Furniture**, and **cities like Philadelphia and Houston**. 
 
-* **High discount dependency (avg. 15.62%)** significantly erodes potential profit margins. \
+* **High discount dependency (avg. 15.62%)** significantly erodes potential profit margins. 
 
-* **No special discounting occurs in peak sales months**, confirming that **sales volume does not directly translate to profit**. \
+* **No special discounting occurs in peak sales months**, confirming that **sales volume does not directly translate to profit**. 
 
-* **Furniture** remains the consistent drag on profitability due to high discounting and weak margins. \
+* **Furniture** remains the consistent drag on profitability due to high discounting and weak margins. 
 
 
 
@@ -360,11 +357,11 @@ These regions have remained consistently underperforming over the analysis perio
 
 
 
-1. **Suspend deep discounts (>25%)** on Furniture, especially Tables. \
+1. **Suspend deep discounts (>25%)** on Furniture, especially Tables. 
 
-2. **Audit high-loss regions** like Philadelphia, Texas, and Illinois for operational inefficiencies. \
+2. **Audit high-loss regions** like Philadelphia, Texas, and Illinois for operational inefficiencies. 
 
-3. **Implement an automated loss-alert system** to flag transactions exceeding a 10% discount threshold. \
+3. **Implement an automated loss-alert system** to flag transactions exceeding a 10% discount threshold. 
 
 
 
@@ -372,24 +369,24 @@ These regions have remained consistently underperforming over the analysis perio
 
 
 
-1. **Restructure the Furniture category:**\
-    * Discontinue persistently unprofitable products. \
+1. **Restructure the Furniture category:**
+    * Discontinue persistently unprofitable products. 
 
-    * Re-negotiate supplier terms and logistics. \
+    * Re-negotiate supplier terms and logistics. 
 
-    * Introduce margin-based pricing policies. \
+    * Introduce margin-based pricing policies. 
 
 2. **Optimize Pricing Strategy:**\
-    * Develop a **tiered discount matrix** based on product profitability. \
+    * Develop a **tiered discount matrix** based on product profitability. 
 
-    * Tie discount approval to margin thresholds. \
+    * Tie discount approval to margin thresholds. 
 
-    * Focus marketing on high-margin categories like Technology. \
+    * Focus marketing on high-margin categories like Technology. 
 
-3. **Regional Profit Improvement:**\
-    * Apply successful strategies from California and New York to underperforming states. \
+3. **Regional Profit Improvement:**
+    * Apply successful strategies from California and New York to underperforming states. 
 
-    * Consider **strategic withdrawal** from persistently unprofitable areas. \
+    * Consider **strategic withdrawal** from persistently unprofitable areas. 
     * Find cost effective methods in delivery of order which could be a cause for unprofitabilty in certain region.
 
 
@@ -401,13 +398,13 @@ These regions have remained consistently underperforming over the analysis perio
 
 
 
-* Dataset limited to 2014–2017; may not reflect current market dynamics. \
+* Dataset limited to 2014–2017; may not reflect current market dynamics. 
 
-* Potential data anomalies (e.g., Philadelphia’s profit inconsistency). \
+* Potential data anomalies (e.g., Philadelphia’s profit inconsistency). 
 
-* Missing granular cost data (e.g., COGS, logistics). \
+* Missing granular cost data (e.g., COGS, logistics). 
 
-* External market conditions not included in the dataset. \
+* External market conditions not included in the dataset. 
 
 
 
@@ -418,15 +415,15 @@ These regions have remained consistently underperforming over the analysis perio
 
 
 
-1. Tableau Public Superstore Dataset \
+1. Tableau Public Superstore Dataset 
 
-2. McKinsey Margin Tree Framework \
+2. McKinsey Margin Tree Framework 
 
-3. Excel Power Query & Pivot Documentation \
+3. Excel Power Query & Pivot Documentation 
 
-4. Tableau Profitability Analysis Whitepapers \
+4. Tableau Profitability Analysis Whitepapers 
 
-5. Retail Pricing and Profitability Research \
+5. Retail Pricing and Profitability Research 
 
 
 
@@ -434,9 +431,9 @@ These regions have remained consistently underperforming over the analysis perio
 
 ---
 
-**Prepared by:** Samuel Chukwudozie \
- **Date:** 6th November, 2025 \
- **Project Type:** Retail Analytics & Profitability Optimization \
+**Prepared by:** Samuel Chukwudozie 
+ **Date:** 6th November, 2025 
+ **Project Type:** Retail Analytics & Profitability Optimization 
  **Tools Used:** Excel | Tableau | Power Query
 
 ![WhatsApp Image 2025-10-06 at 11 55 44 PM](https://github.com/user-attachments/assets/f471809e-bde2-4080-be34-a34b75e2c886)
