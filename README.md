@@ -103,7 +103,7 @@ EDA in Tableau and E0xcel revealed patterns and relationships that shaped the fi
 <img width="999" height="1099" alt="Dashboard 2 (3)" src="https://github.com/user-attachments/assets/83b50781-b85a-4503-b0cf-772c5cb7363d" />
 
 
-Link to the dashboard [Click Here]([https://www.k5learning.com/worksheets/math/grade-6-integer-multiplication-whole-tens-a.pdf](https://public.tableau.com/views/ExecutiveSummary_17556369968490/Dashboard2?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link))
+Link to the dashboard [Click Here](https://public.tableau.com/views/ExecutiveSummary_17556369968490/Dashboard2?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 **Key EDA Activities:**
 
